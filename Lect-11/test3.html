@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        main{
+            background-color: aliceblue;
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 100px;
+        }
+        div{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            box-shadow: 10px 10px 5px rgb(135, 115, 115);
+      transition: height 2s, width 2s, box-shadow 1s;      
+
+        }
+        div:hover{
+            height: 120px;
+            width: 120px;
+            box-shadow: -20px -20px 5px rgb(124, 131, 186);
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+    </main>
+</body>
+</html>
