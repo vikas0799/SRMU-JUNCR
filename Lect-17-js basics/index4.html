@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Higher Order Function</h1>
+
+    <script>
+
+        //cube ->HOF, callback -> callback function
+        function cube(callback){
+           callback();
+        //    console.log("hi welcome to cube functional scope");
+           console.log(callback); 
+        //    callback();
+        }
+        let aug=()=>{
+            console.log("i am argument function");
+            console.log("hi");
+            
+        };
+        // console.log(aug);  //printing function body
+        // aug();  //function execution
+        
+        cube(aug);
+        // console.log("finished clear memory");
+        
+        
+        
+    </script>
+    
+</body>
+</html>

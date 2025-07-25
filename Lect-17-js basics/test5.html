@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>hof</h1>
+
+    <script>
+        //     In JavaScript, a higher-order function (HOF) is a function that either: 
+        //1. Takes one or more functions as arguments. These functions passed as arguments are often referred to as "callback functions."
+        //2. Returns a function as its result. 
+
+
+
+
+        function HOF(back){
+            console.log(back);
+            back();
+        }
+        let aug=()=>{
+            console.log("hello");
+            console.log("rbu");
+            
+        };
+        HOF(aug);
+
+        // function HOF() {
+        //     let x = 90;
+        //     x = () => {
+        //         console.log("hi");
+        //     }
+        //     return x;
+        // }
+    </script>
+</body>
+
+</html>
