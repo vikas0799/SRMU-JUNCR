@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>welcome</h1>
+
+  <script>
+      
+  let num=[21,30,40,50,60,90,100];
+  // new array -> element divisible by 3
+  let ans=num.filter((element, index, num)=>{
+    //   console.log(`my element is ${element} and ${index} and ${num} `);
+      if(element%3==0){
+        return true;
+      }
+      else{
+        return false;
+      }
+  });
+  console.log(ans);
+  
+  </script>
+
+</body>
+</html>
