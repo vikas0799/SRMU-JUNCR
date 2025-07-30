@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation </title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(233, 86, 32);
+            margin: 10px;
+        }
+        .circle{
+            border-radius: 50%;
+            background-color: antiquewhite;
+        }
+        .big{
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>add remove class in js DOM manipulation</h1>
+    <div>
+    </div>
+    <div>
+    </div>
+<script>
+  let div= document.querySelectorAll("div");
+  div[0].classList.add("big");
+//   div[0].classList.add("circle");
+//   div[1].classList.remove("big");
+
+div[0].classList.toggle("big");
+div[0].classList.toggle("big");
+
+</script>
+</body>
+
+</html>

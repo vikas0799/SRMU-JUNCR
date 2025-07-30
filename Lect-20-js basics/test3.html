@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+        main {
+            height: 300px;
+            width: 100px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>createing html element in js </h1>
+    <p>Lorem, ipsum dolor.</p>
+    <main>
+        <p>first</p>
+        <p>second</p>
+    </main>
+    <main>
+
+    </main>
+
+    <script>
+        let arr = [];
+        for (let i = 0; i < 10; i++) {
+            let ans = document.createElement("p");
+            ans.innerText = "web develoment class is going well";
+            arr.push(ans);
+        }
+        // console.log(arr);
+
+
+        // let ans = document.createElement("p");
+        // ans.innerText = "web develoment class is going well";
+
+        // let div = document.createElement("div");
+        // div.prepend(ans);
+        // console.log(div);
+
+
+        let main = document.getElementsByTagName("main");
+        // main[0].append(div);
+        // main[0].prepend(div);
+        // main[0].style.backgroundColor="aqua";
+        // main[1].style.backgroundColor="red";
+        for (let i = 0; i < 10; i++) {
+            main[0].append(arr[i]);
+        }
+
+
+    </script>
+</body>
+
+</html>
