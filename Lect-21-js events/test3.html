@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            background-color: rgb(182, 151, 151);
+        }
+        .dark{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+
+    </div>
+
+    <button onclick="theme()">theme</button>
+
+    <script>
+        let div=document.getElementsByTagName("body");
+        function theme(){
+            // div[0].style.backgroundColor="black";
+            div[0].classList.toggle("dark");
+        }
+    </script>
+</body>
+</html>
