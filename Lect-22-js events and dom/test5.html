@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>welcome</h2>
+    <button id="btn">click me</button>
+
+    <script>
+        // document.getElementById("btn").addEventListener("click", function () {
+        //     console.log("hello");
+        //     console.log(this); // The button element
+        // });
+        // Arrow function in event:
+        document.getElementById("btn").addEventListener("click", () => {
+            console.log(this.alert("hi please complete form")); // Window (inherits from parent)
+        });
+
+    </script>
+</body>
+
+</html>

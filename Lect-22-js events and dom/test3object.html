@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>object and functions</h1>
+
+    <script>
+        let profile = {
+            "name": "vikas",
+            "age": 27,
+            "college": "SRMU",
+            "display": function display() {
+                console.log("hello");
+                console.log("hello2");
+                console.log(this.name);
+                console.log(profile.name);
+                console.log(this);
+
+                // console.log(this.display);
+
+            },
+            "show": () => {
+                console.log("hi");
+                console.log(this.name);
+            },
+
+
+            "address": {
+                "village": "hasanpur",
+                "picode": "202020",
+                "dist": "azamgarh",
+                "state": "up"
+            },
+            "status": "single"
+        }
+        profile.show();
+    </script>
+
+</body>
+
+</html>
