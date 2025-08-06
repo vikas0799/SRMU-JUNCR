@@ -1,15 +1,20 @@
 // function vikas(){
-//     //data fetching
-//     //bank balance
+//     // await //data fetching
+// //    await //bank balance
 //     //upi transfer
 //     //bank balance checked
 //     // fetch("url");  //it takes time
-//     console.log("hello SBI !");
+//     console.log("hello SBI UPI !");
 
 // }
+// vikas();
+
+
+
+
 
 async function vikas() {
-     //    await //data fetching
+        // await //data fetching
     //    await //bank balance
     //upi transfer
     //bank balance checked
@@ -18,8 +23,8 @@ async function vikas() {
 //    let x=await 34;
     let x = await new Promise((resolve, reject) => {
         setTimeout(() => {
-            // resolve(230);
-            reject("network prombel");
+            resolve(230);
+            // reject("network prombel");
         }, 3000);
     });
     return  x;

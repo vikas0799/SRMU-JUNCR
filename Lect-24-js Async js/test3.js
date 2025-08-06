@@ -10,21 +10,37 @@
 
 //     console.log(promise);
 //     console.log(typeof(promise));
-    
-    
+
+
 
 //   let a=90;
 // promisre->repersent object
-// let a = new Promise((resolve, reject) => {
+let a = new Promise((resolve, reject) => {
+    //data fetching
+    //netwrok call
+    //file read
+    setTimeout(() => {
+        let ans = 75;
+        resolve(ans);
+    }, 3000);
+    //    reject("network problem");
 
-//     setTimeout(() => {
-//         // ...data fetching of aksh profle
-//         let data = "akash srivastava";
-//         // resolve(data);
-//         reject("data not fetched ");
-//     }, 4000);
+})
+a.then((roll) => {
+    console.log(roll);
+    let head = document.getElementsByTagName("h1");
+    head[0].innerHTML = roll;
+})
+    .catch((error) => {
+        console.log(error);
 
-// })
+    })
+    .finally(() => {
+        console.log("sessrion completed");
+
+    });
+
+// console.log(typeof(a));
 
 // a.then((name) => {
 //     console.log(name);
