@@ -1,3 +1,4 @@
+//module import
 import { add,ans } from './math.js';
 console.log(ans);
 let sum=add(2,4);
