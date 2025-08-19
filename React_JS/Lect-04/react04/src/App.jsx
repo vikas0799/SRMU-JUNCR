@@ -16,6 +16,7 @@ function App() {
       <Card data ={a} fname={name}/>
       {/* <Akash/> */}
       {/* <AlignItemsList/> */}
+      <Card/>
     </>
   )
 }

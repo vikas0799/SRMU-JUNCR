@@ -8,8 +8,8 @@ function MyButton() {
   );
 }
 // export default
- function MyApp(props) {
-  console.log(props);
+ function Card(props) {
+  console.log(props);  //object props
   
   return (
     <div>
@@ -20,4 +20,4 @@ function MyButton() {
   );
 }
 
-export default MyApp;
+export default Card;
