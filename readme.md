@@ -16,15 +16,6 @@ This repository contains:
 
 ---
 
-## 👨‍💻 Student GitHub Profiles
-
-| S.No | Name | GitHub Profile |
-|------|------|----------------|
-| 1 | Akash Srivastava | [🔗 View Profile](https://github.com/asGithub09) |
-| 2 | Aniket Pal | [🔗 View Profile](https://github.com/aniketpal3) |
-| 3 | Alex Brown | [🔗 View Profile](https://github.com/alexbrown) |
-
----
 
 ## 🛠 How to Add Your Name
 1. **Fork** this repository 🍴
